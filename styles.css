@@ -4,7 +4,7 @@
     text-decoration: underline;
 }
 
-.form {
+#form {
     display: flex;
     justify-content: center;
     margin-top: -10px;
@@ -16,17 +16,31 @@ button {
     margin: auto;
 }
 
-form fieldset, .submit-btn{
+form fieldset, #submit-btn{
     width: 50%;
     margin-top: 5px;
 }
 
-.name, .email, .message {
+#name, #email, #message {
     display: flex;
     margin-top: 5px;
 }
 
-input {
-    margin-left: 5px;
+label, textarea{
+    margin: auto 5px;
     width: 100%;
+}
+
+input {
+    margin:auto;
+    width: 100%;
+}
+@media screen {
+    body {
+
+    }
+}
+
+input.error {
+    border: 1px solid red;
 }
