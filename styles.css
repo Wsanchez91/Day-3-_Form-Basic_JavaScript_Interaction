@@ -29,18 +29,19 @@ form fieldset, #submit-btn{
 label, textarea{
     margin: auto 5px;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 input {
     margin:auto;
     width: 100%;
 }
-@media screen {
-    body {
 
-    }
+input.error, textarea.error {
+    border: 1px solid red;
 }
 
-input.error {
-    border: 1px solid red;
+.error{
+    color: red;
+    font-size: 0.9rem;
 }

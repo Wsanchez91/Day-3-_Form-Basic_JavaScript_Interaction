@@ -16,7 +16,7 @@
           <h3>Name:</h3>
           <label class="name-label">
             <input type="text" class="name-text" placeholder="Name" />
-            <span class="error-message"></span>
+            <span class="error"></span>
           </label>
         </section>
         <section id="email">
@@ -29,14 +29,15 @@
         <section id="message">
           <h3>Message:</h3>
           <textarea
-            type="text"
             class="message-text"
             placeholder="Write your message here"
           ></textarea>
+          <span class="error"></span>
         </section>
       </fieldset>
+      <button type="submit" id="submit-btn">Submit</button>
     </form>
-    <button type="submit" id="submit-btn">Submit</button>
+   
     <script src="./script.js"></script>
   </body>
 </html>
