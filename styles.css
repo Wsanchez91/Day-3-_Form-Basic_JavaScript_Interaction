@@ -1,0 +1,32 @@
+.header h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+form fieldset, .submit-btn{
+    width: 50%;
+    margin-top: 5px;
+}
+
+.name, .email, .message {
+    display: flex;
+    margin-top: 5px;
+}
+
+input {
+    margin-left: 5px;
+    width: 100%;
+}
